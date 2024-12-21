@@ -1,0 +1,68 @@
+.navbar-nav a {
+  position: relative;
+}
+
+.activ::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background: deepskyblue;
+  display: block;
+  left: 0;
+  bottom: -11px; /* Podesite ako je potrebno da odgovara vašem dizajnu */
+  opacity: 1;
+  transition: opacity 0.2s ease; /* Prilagodite trajanje tranzicije ako je potrebno */
+}
+
+.activs::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background: deepskyblue;
+  display: block;
+  left: 0;
+  bottom: 0px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+
+.activs:hover::after {
+  opacity: 1;
+}
+body {
+  font-family: Arial, sans-serif; /* Example font that supports these characters */
+}
+
+li {
+  font-size: 1.2em;
+}
+
+.blicNod {
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.autocomplete-result {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.highlight {
+  background-color: red;
+  font-size: 1em;
+  color: white;
+  border-radius: 5px;
+}
+
+body {
+  background-color: deepskyblue;
+}
+
+.shd {
+  box-shadow: 5px 5px 10px 1px #807478;
+}
+.tshd {
+  text-shadow: 2px 3px 2px #232020, 5px 5px 10px #000;
+}

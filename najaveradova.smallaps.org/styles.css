@@ -1,0 +1,35 @@
+.navbar-nav a {
+  position: relative;
+}
+
+.activ::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background: deepskyblue;
+  display: block;
+  left: 0;
+  bottom: -11px; 
+  opacity: 1;
+  transition: opacity 0.2s ease; 
+}
+
+.activs::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background: deepskyblue;
+  display: block;
+  left: 0;
+  bottom: 0px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+
+.activs:hover::after {
+  opacity: 1;
+}
+body {
+  font-family: Arial, sans-serif;
+}

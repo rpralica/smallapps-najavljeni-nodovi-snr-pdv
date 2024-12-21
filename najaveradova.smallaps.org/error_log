@@ -1,0 +1,36 @@
+[26-Aug-2024 20:58:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php:3
+Stack trace:
+#0 /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php(3): mysqli_connect()
+#1 /home/smalpklc/public_html/najaveradova.smallaps.org/index.php(1): require('/home/smalpklc/...')
+#2 {main}
+  thrown in /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php on line 3
+[26-Aug-2024 20:58:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php:3
+Stack trace:
+#0 /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php(3): mysqli_connect()
+#1 /home/smalpklc/public_html/najaveradova.smallaps.org/index.php(1): require('/home/smalpklc/...')
+#2 {main}
+  thrown in /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php on line 3
+[26-Aug-2024 20:58:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php:3
+Stack trace:
+#0 /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php(3): mysqli_connect()
+#1 /home/smalpklc/public_html/najaveradova.smallaps.org/index.php(1): require('/home/smalpklc/...')
+#2 {main}
+  thrown in /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php on line 3
+[26-Aug-2024 20:58:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php:3
+Stack trace:
+#0 /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php(3): mysqli_connect()
+#1 /home/smalpklc/public_html/najaveradova.smallaps.org/index.php(1): require('/home/smalpklc/...')
+#2 {main}
+  thrown in /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php on line 3
+[26-Aug-2024 20:58:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php:3
+Stack trace:
+#0 /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php(3): mysqli_connect()
+#1 /home/smalpklc/public_html/najaveradova.smallaps.org/index.php(1): require('/home/smalpklc/...')
+#2 {main}
+  thrown in /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php on line 3
+[26-Aug-2024 20:58:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php:3
+Stack trace:
+#0 /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php(3): mysqli_connect()
+#1 /home/smalpklc/public_html/najaveradova.smallaps.org/index.php(1): require('/home/smalpklc/...')
+#2 {main}
+  thrown in /home/smalpklc/public_html/najaveradova.smallaps.org/settings/connection.php on line 3
